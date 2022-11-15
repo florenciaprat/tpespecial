@@ -17,12 +17,12 @@ $router->addRoute('products/:ID', 'PUT', 'productApiController', 'updateProduct'
 
 
 //tabla comentarios
-$router->addRoute('comments', 'POST', 'commentApiController', 'insertComment'); //esta
-$router->addRoute('comments/:commentID', 'DELETE', 'commentApiController', 'deleteComment'); //esta
-$router->addRoute('comments/:ID', 'GET', 'commentApiController', 'getComment'); //esta
-$router->addRoute('products/:ID/comments', 'GET', 'productApiController', 'getProductComments'); //esta
+$router->addRoute('comments', 'POST', 'commentApiController', 'insertComment'); 
+$router->addRoute('comments/:commentID', 'DELETE', 'commentApiController', 'deleteComment'); 
+$router->addRoute('comments/:ID', 'GET', 'commentApiController', 'getComment'); 
+$router->addRoute('products/:ID/comments', 'GET', 'productApiController', 'getProductComments'); 
 $router->addRoute('comments', 'GET', 'commentApiController', 'getComments');
-$router->addRoute('comments/:ID', 'PUT', 'commentApiController', 'editComment');  //esta
+$router->addRoute('comments/:ID', 'PUT', 'commentApiController', 'editComment');  
 
 $router->addRoute("auth/token", "GET", "authApiController", "getToken");
 
