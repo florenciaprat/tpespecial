@@ -146,8 +146,9 @@ Para realizar actualizaciones o eliminar productos debemos tener permiso, para e
 ## Codigos de respuesta:
 |Status| Mensaje    |Significado
 |----  |:----------:|-----------------------------------------------------:
-|200   |OK          | si la solicitud ha tenido exito.
-|201   |Created     | como resultado de la solicitus se ha creado un nuevo recurso.
-|400   | Bad Request| indica que el servidor no puede procesar la peticion debido a un error del cliente.
-|404   |Not Found   |indica que el host ha sido capaz de comunicarse con el servidor, pero no existe el recurso que ha sido pedido.
+|200   |OK          |Si la solicitud ha tenido exito.
+|201   |Created     |Como resultado de la solicitus se ha creado un nuevo recurso.
+|400   | Bad Request|Indica que el servidor no puede procesar la peticion debido a un error del cliente.
+|401   |Unauthorized|Indica que la peticion no ha sido ejecutada porque carece de credenciales validas de autenticacion.
+|404   |Not Found   |Indica que el host ha sido capaz de comunicarse con el servidor, pero no existe el recurso que ha sido pedido.
 
